@@ -1,8 +1,7 @@
----
-title: "Technical Vulnerability Assessment Report"
-author: "<Your Name>"
-date: "<YYYY-MM-DD>"
----
+## title: "Technical Vulnerability Assessment Report"
+## author: "<Your Name>"
+## date: "<YYYY-MM-DD>"
+
 
 
 # Executive Summary
