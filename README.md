@@ -2,11 +2,11 @@
 
 A small collection of polished report templates and a README to help you produce professional, recruiter-friendly vulnerability assessment reports and executive summaries. This repository is intentionally sanitized and focuses on delivering clean templates you can populate with authorized lab data.  
 
-**templates/technical-report.md** — a full, polished technical report template (markdown) you can edit and convert to PDF.  
+**technical-report.md** — a full, polished technical report template (markdown) you can edit and convert to PDF.  
 
-**templates/executive-summary.md** — concise 1-page executive summary template.  
+**executive-summary.md** — concise 1-page executive summary template.  
 
-**templates/sample-findings.md** — sanitized, non-actionable finding entries and severity matrix.  
+**sample-findings.md** — sanitized, non-actionable finding entries and severity matrix.  
 
 ## usage & quick start  
 
@@ -24,7 +24,7 @@ With Pandoc (recommended for highest control):
 # Debian/Ubuntu: sudo apt install pandoc
 # Windows: install from https://pandoc.org
 
-pandoc templates/technical-report.md -o report.pdf --pdf-engine=xelatex
+pandoc technical-report.md -o report.pdf --pdf-engine=xelatex
 ```  
 
 **From VSCode:** open the technical-report.md, then use the Markdown preview → Print to PDF.  
